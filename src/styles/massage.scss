@@ -1,0 +1,40 @@
+.massage-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 999;
+}
+
+.massage-win-text {
+    color: green;
+    font-size: 30px;
+}
+
+.massage-win-subtext {
+    color: green;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.message-btn {
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: green;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}

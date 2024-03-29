@@ -1,0 +1,51 @@
+.game-menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 263px;
+    text-align: center;
+}
+
+.menu-image {
+    width: 260px;
+    height: 140px;
+    margin-bottom: 10px;
+}
+
+.name-input {
+    width: 263px;
+    height: 48px;
+    border: #D3D8DC solid 1.2px;
+    border-radius: 6px;
+    margin-top: 20px;
+    padding: 0 12px;
+}
+
+.complexity-wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select {
+    width: 50px;
+    height: 30px;
+    border: #D3D8DC solid 1.2px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.menu-btn {
+    width: 130px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #316FEA;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
